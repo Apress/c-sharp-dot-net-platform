@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMethods", "ObjectMethods.csproj", "{69B6694F-EF4F-4C1C-AE21-49CB42EDD95E}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{69B6694F-EF4F-4C1C-AE21-49CB42EDD95E}.Debug.ActiveCfg = Debug|.NET
+		{69B6694F-EF4F-4C1C-AE21-49CB42EDD95E}.Debug.Build.0 = Debug|.NET
+		{69B6694F-EF4F-4C1C-AE21-49CB42EDD95E}.Release.ActiveCfg = Release|.NET
+		{69B6694F-EF4F-4C1C-AE21-49CB42EDD95E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

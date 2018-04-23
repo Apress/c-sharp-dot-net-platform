@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XmlDocCar</name>
+    </assembly>
+    <members>
+        <member name="T:XmlDocCar.SimpleCar">
+            <summary>
+               This is a simple Car which illustrates
+               working with XML style documentation.
+            </summary>
+        </member>
+        <member name="F:XmlDocCar.SimpleCar.hasSunroof">
+            <summary>
+            Do you have a sunroof?
+            </summary>
+        </member>
+        <member name="M:XmlDocCar.SimpleCar.#ctor(System.Boolean)">
+            <summary>
+            The ctor lets you set the sunroofedness.
+            </summary>
+            <param name="hasSunroof"> </param>
+        </member>
+        <member name="M:XmlDocCar.SimpleCar.OpenSunroof(System.Boolean)">
+            <summary>
+            This method allows you to open your sunroof.
+            </summary>
+            <param name="state"> </param>
+        </member>
+        <member name="M:XmlDocCar.SimpleCar.Main">
+            <summary>
+            Entry point to application.
+            </summary>
+        </member>
+    </members>
+</doc>

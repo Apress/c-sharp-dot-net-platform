@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nested", "Nested.csproj", "{B6A68AB6-D649-4685-B498-5889C78B6BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B6A68AB6-D649-4685-B498-5889C78B6BB7}.Debug.ActiveCfg = Debug|.NET
+		{B6A68AB6-D649-4685-B498-5889C78B6BB7}.Debug.Build.0 = Debug|.NET
+		{B6A68AB6-D649-4685-B498-5889C78B6BB7}.Release.ActiveCfg = Release|.NET
+		{B6A68AB6-D649-4685-B498-5889C78B6BB7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

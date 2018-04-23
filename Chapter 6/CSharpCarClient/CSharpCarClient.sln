@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCarClient", "CSharpCarClient.csproj", "{AA0CC932-D3E6-4F2E-9A2E-BC44D37372E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AA0CC932-D3E6-4F2E-9A2E-BC44D37372E0}.Debug.ActiveCfg = Debug|.NET
+		{AA0CC932-D3E6-4F2E-9A2E-BC44D37372E0}.Debug.Build.0 = Debug|.NET
+		{AA0CC932-D3E6-4F2E-9A2E-BC44D37372E0}.Release.ActiveCfg = Release|.NET
+		{AA0CC932-D3E6-4F2E-9A2E-BC44D37372E0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

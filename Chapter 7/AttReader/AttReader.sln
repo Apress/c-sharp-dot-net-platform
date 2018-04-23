@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttReader", "AttReader.csproj", "{5B08849A-47B9-4A94-8F20-101C94C417DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5B08849A-47B9-4A94-8F20-101C94C417DD}.Debug.ActiveCfg = Debug|.NET
+		{5B08849A-47B9-4A94-8F20-101C94C417DD}.Debug.Build.0 = Debug|.NET
+		{5B08849A-47B9-4A94-8F20-101C94C417DD}.Release.ActiveCfg = Release|.NET
+		{5B08849A-47B9-4A94-8F20-101C94C417DD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

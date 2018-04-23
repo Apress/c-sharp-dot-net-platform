@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buttons", "Buttons.csproj", "{10060DBE-4E4D-4BC7-9EB9-5A9854928936}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{10060DBE-4E4D-4BC7-9EB9-5A9854928936}.Debug.ActiveCfg = Debug|.NET
+		{10060DBE-4E4D-4BC7-9EB9-5A9854928936}.Debug.Build.0 = Debug|.NET
+		{10060DBE-4E4D-4BC7-9EB9-5A9854928936}.Release.ActiveCfg = Release|.NET
+		{10060DBE-4E4D-4BC7-9EB9-5A9854928936}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollForm", "ScrollForm.csproj", "{41A4F76B-0315-474A-8725-022E02268CDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{41A4F76B-0315-474A-8725-022E02268CDF}.Debug.ActiveCfg = Debug|.NET
+		{41A4F76B-0315-474A-8725-022E02268CDF}.Debug.Build.0 = Debug|.NET
+		{41A4F76B-0315-474A-8725-022E02268CDF}.Release.ActiveCfg = Release|.NET
+		{41A4F76B-0315-474A-8725-022E02268CDF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

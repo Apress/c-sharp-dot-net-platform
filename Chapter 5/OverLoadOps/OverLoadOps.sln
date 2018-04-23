@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverLoadOps", "OverLoadOps.csproj", "{E9CC3ACD-C21D-41DF-B936-38E4BAF88C67}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E9CC3ACD-C21D-41DF-B936-38E4BAF88C67}.Debug.ActiveCfg = Debug|.NET
+		{E9CC3ACD-C21D-41DF-B936-38E4BAF88C67}.Debug.Build.0 = Debug|.NET
+		{E9CC3ACD-C21D-41DF-B936-38E4BAF88C67}.Release.ActiveCfg = Release|.NET
+		{E9CC3ACD-C21D-41DF-B936-38E4BAF88C67}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

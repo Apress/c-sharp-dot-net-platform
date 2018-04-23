@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDocCar", "XmlDocCar.csproj", "{B7C6F415-6130-4A87-985F-92CFBF87FC33}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B7C6F415-6130-4A87-985F-92CFBF87FC33}.Debug.ActiveCfg = Debug|.NET
+		{B7C6F415-6130-4A87-985F-92CFBF87FC33}.Debug.Build.0 = Debug|.NET
+		{B7C6F415-6130-4A87-985F-92CFBF87FC33}.Release.ActiveCfg = Release|.NET
+		{B7C6F415-6130-4A87-985F-92CFBF87FC33}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusBar", "StatusBar.csproj", "{6703D33E-D506-4E59-B69E-338DF3837AAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6703D33E-D506-4E59-B69E-338DF3837AAB}.Debug.ActiveCfg = Debug|.NET
+		{6703D33E-D506-4E59-B69E-338DF3837AAB}.Debug.Build.0 = Debug|.NET
+		{6703D33E-D506-4E59-B69E-338DF3837AAB}.Release.ActiveCfg = Release|.NET
+		{6703D33E-D506-4E59-B69E-338DF3837AAB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

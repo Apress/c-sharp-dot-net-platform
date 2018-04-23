@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarToFileApp", "CarToFileApp.csproj", "{1D07D17B-CC1F-4094-8565-0B3C0F4983DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1D07D17B-CC1F-4094-8565-0B3C0F4983DC}.Debug.ActiveCfg = Debug|.NET
+		{1D07D17B-CC1F-4094-8565-0B3C0F4983DC}.Debug.Build.0 = Debug|.NET
+		{1D07D17B-CC1F-4094-8565-0B3C0F4983DC}.Release.ActiveCfg = Release|.NET
+		{1D07D17B-CC1F-4094-8565-0B3C0F4983DC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

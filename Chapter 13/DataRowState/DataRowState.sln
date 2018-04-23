@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataRowState", "DataRowState.csproj", "{39F0B7EC-173F-46AE-B9E3-BE2A81804760}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{39F0B7EC-173F-46AE-B9E3-BE2A81804760}.Debug.ActiveCfg = Debug|.NET
+		{39F0B7EC-173F-46AE-B9E3-BE2A81804760}.Debug.Build.0 = Debug|.NET
+		{39F0B7EC-173F-46AE-B9E3-BE2A81804760}.Release.ActiveCfg = Release|.NET
+		{39F0B7EC-173F-46AE-B9E3-BE2A81804760}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

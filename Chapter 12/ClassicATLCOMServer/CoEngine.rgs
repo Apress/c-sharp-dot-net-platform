@@ -1,0 +1,26 @@
+HKCR
+{
+	ClassicATLCOMServer.CoEngine.1 = s 'CoEngine Class'
+	{
+		CLSID = s '{32C07E17-F966-4EFD-B301-9729FE2D60B5}'
+	}
+	ClassicATLCOMServer.CoEngine = s 'CoEngine Class'
+	{
+		CLSID = s '{32C07E17-F966-4EFD-B301-9729FE2D60B5}'
+		CurVer = s 'ClassicATLCOMServer.CoEngine.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {32C07E17-F966-4EFD-B301-9729FE2D60B5} = s 'CoEngine Class'
+		{
+			ProgID = s 'ClassicATLCOMServer.CoEngine.1'
+			VersionIndependentProgID = s 'ClassicATLCOMServer.CoEngine'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{69D8B2E2-4CC1-4414-9757-49C53620FF0C}'
+		}
+	}
+}

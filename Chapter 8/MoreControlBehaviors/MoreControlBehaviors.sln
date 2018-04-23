@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreControlBehaviors", "MoreControlBehaviors.csproj", "{4FD90BA5-1AE1-4415-8BFE-20F7070F4849}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4FD90BA5-1AE1-4415-8BFE-20F7070F4849}.Debug.ActiveCfg = Debug|.NET
+		{4FD90BA5-1AE1-4415-8BFE-20F7070F4849}.Debug.Build.0 = Debug|.NET
+		{4FD90BA5-1AE1-4415-8BFE-20F7070F4849}.Release.ActiveCfg = Release|.NET
+		{4FD90BA5-1AE1-4415-8BFE-20F7070F4849}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpATLServerClient", "CSharpATLServerClient.csproj", "{ED85DFBC-A32F-49EC-84DB-94378CFCB703}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ED85DFBC-A32F-49EC-84DB-94378CFCB703}.Debug.ActiveCfg = Debug|.NET
+		{ED85DFBC-A32F-49EC-84DB-94378CFCB703}.Debug.Build.0 = Debug|.NET
+		{ED85DFBC-A32F-49EC-84DB-94378CFCB703}.Release.ActiveCfg = Release|.NET
+		{ED85DFBC-A32F-49EC-84DB-94378CFCB703}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

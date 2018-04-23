@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalFormsApp", "FinalFormsApp.csproj", "{CFB5015B-1748-46B0-8077-5130E81A29BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CFB5015B-1748-46B0-8077-5130E81A29BF}.Debug.ActiveCfg = Debug|.NET
+		{CFB5015B-1748-46B0-8077-5130E81A29BF}.Debug.Build.0 = Debug|.NET
+		{CFB5015B-1748-46B0-8077-5130E81A29BF}.Release.ActiveCfg = Release|.NET
+		{CFB5015B-1748-46B0-8077-5130E81A29BF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

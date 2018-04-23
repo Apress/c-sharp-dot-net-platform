@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" targetNamespace="" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="happyDude" mimetype="text/microsoft-urt/binary-serialized/base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFRTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0xLjAuMjQxMS4wLCBD
+        dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0u
+        RHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAdgIAAAJCTXYCAAAAAAAAdgAAACgA
+        AAAgAAAAIAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8AgID/gAAA/4AA
+        gP+AgAD/gICA/8DAwP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAALu7u7sAAAAAAAAAAAAAC7u7u7u7u7AAAAAAAAAAALu7u7u7u7u7AAAAAAAAALu7u7u7u7u7u7sA
+        AAAAAAu7u7u7AAC7u7u7sAAAAAC7u7u7sJmZC7u7u7sAAAAAu7u7uwmZmZC7u7u7AAAAC7u7u7CQAAAJ
+        C7u7u7AAALu7u7sAC7u7sAC7u7u7AAC7u7uwC7u7u7uwC7u7uwAAu7u7sLu7u7u7uwu7u7sAC7u7uwu7
+        u7u7u7uwu7u7sAu7AAC7u7u7u7u7uwAAu7ALu7uwu7u7u7u7u7sLu7uwC7u7uwu7u7u7u7uwu7u7sAu7
+        u7sLu7u7u7u7sLu7u7ALu7u7u7ALu7uwC7u7u7uwC7u7u7sAALu7AAC7u7u7sAu7u7u7AAC7uwAAu7u7
+        u7AAu7u7uwAAu7sAALu7u7sAALu7u7sAALu7AAC7u7u7AAC7u7u7AAC7uwAAu7u7uwAAC7u7u7ALu7uw
+        C7u7u7AAAAC7u7u7u7u7u7u7u7sAAAAAu7u7u7u7u7u7u7u7AAAAAAu7u7u7u7u7u7u7sAAAAAAAu7u7
+        u7u7u7u7uwAAAAAAAAC7u7u7u7u7uwAAAAAAAAAAC7u7u7u7u7AAAAAAAAAAAAAAu7u7uwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAL
+</value>
+  </data>
+  <data name="welcomeString">
+    <value>Hello new resource format!</value>
+  </data>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+</root>

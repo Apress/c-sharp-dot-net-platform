@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormSqlAdapter", "WinFormSqlAdapter.csproj", "{332F74F7-AFBD-4CFE-8F91-4DA430DBEA08}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{332F74F7-AFBD-4CFE-8F91-4DA430DBEA08}.Debug.ActiveCfg = Debug|.NET
+		{332F74F7-AFBD-4CFE-8F91-4DA430DBEA08}.Debug.Build.0 = Debug|.NET
+		{332F74F7-AFBD-4CFE-8F91-4DA430DBEA08}.Release.ActiveCfg = Release|.NET
+		{332F74F7-AFBD-4CFE-8F91-4DA430DBEA08}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

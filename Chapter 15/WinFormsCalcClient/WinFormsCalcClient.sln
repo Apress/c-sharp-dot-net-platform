@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsCalcClient", "WinFormsCalcClient.csproj", "{F8A02686-71A5-4F25-8407-20BAFCDF67FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F8A02686-71A5-4F25-8407-20BAFCDF67FB}.Debug.ActiveCfg = Debug|.NET
+		{F8A02686-71A5-4F25-8407-20BAFCDF67FB}.Debug.Build.0 = Debug|.NET
+		{F8A02686-71A5-4F25-8407-20BAFCDF67FB}.Release.ActiveCfg = Release|.NET
+		{F8A02686-71A5-4F25-8407-20BAFCDF67FB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

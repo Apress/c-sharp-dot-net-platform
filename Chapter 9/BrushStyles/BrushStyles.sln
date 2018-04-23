@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrushStyles", "BrushStyles.csproj", "{DCA7B3AE-9C21-4B8A-B436-D8AFC3B2A375}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DCA7B3AE-9C21-4B8A-B436-D8AFC3B2A375}.Debug.ActiveCfg = Debug|.NET
+		{DCA7B3AE-9C21-4B8A-B436-D8AFC3B2A375}.Debug.Build.0 = Debug|.NET
+		{DCA7B3AE-9C21-4B8A-B436-D8AFC3B2A375}.Release.ActiveCfg = Release|.NET
+		{DCA7B3AE-9C21-4B8A-B436-D8AFC3B2A375}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

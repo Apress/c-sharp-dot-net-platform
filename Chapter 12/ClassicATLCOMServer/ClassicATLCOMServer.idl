@@ -1,0 +1,140 @@
+// ClassicATLCOMServer.idl : IDL source for ClassicATLCOMServer.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ClassicATLCOMServer.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+	// This enum is used for ID the car type.
+	typedef enum CarType {Jetta, BMW, Ford, Colt} CarType;
+
+	// The inner engine interface
+	[
+		object,
+		uuid(23D2BB87-A8F8-4301-BED5-9D0CA77AE403),
+		dual,
+		helpstring("IEngine Interface"),
+		pointer_default(unique)
+	]
+	interface IEngine : IDispatch
+	{
+		[id(1), helpstring("method GetCylinders")] 
+		HRESULT GetCylinders([out, retval] VARIANT* arCylinders);		
+	};
+
+	[
+		object,
+		uuid(3598361A-135C-4014-9B29-6CD239CA043D),
+		dual,
+		helpstring("IDriverInfo Interface"),
+		pointer_default(unique)
+	]
+	interface IDriverInfo : IDispatch
+	{
+		[id(1),propget, helpstring("property DriverName")] 
+		HRESULT DriverName([out, retval] BSTR *pVal);
+		
+		[id(1), propput, helpstring("property DriverName")] 
+		HRESULT DriverName([in] BSTR newVal);
+	};
+
+	[
+		object,
+		uuid(A8E01A32-0300-402A-B1EC-ADCD2DC526B4),
+		dual,
+		helpstring("ICar Interface"),
+		pointer_default(unique)
+	]
+	interface ICar : IDispatch
+	{
+		[id(1), helpstring("method SpeedUp")] 
+		HRESULT SpeedUp([in] int delta);
+		
+		[id(2), helpstring("method GetCurSpeed")] 		
+		HRESULT GetCurSpeed([out, retval] int* currSp);
+		
+		[id(3), helpstring("method GetEngine")] 
+		HRESULT GetEngine([out, retval] IEngine** pEngine);
+		
+		[id(4), helpstring("method GetCarType")] 
+		HRESULT GetCarType([out, retval] CarType* ct);
+	};
+
+
+	[object, uuid(2F79C93F-77D2-4797-BCCB-00D5378AB047)]
+	interface IParams : IUnknown
+	{
+		// [in] params are allocated by the caller and sent to the method.
+		[id(1)] HRESULT OnlyInParams([in] int x, [in] int y);
+
+		// [out] params are filled by the callee.		
+		[id(2)] HRESULT OnlyOutParams([out] int* x, [out] int* y);
+
+		// [retval] types map an output param to the physical return value
+		// of the function (e.g. VB would call this as ans = Retval() ).		
+		[id(3)] HRESULT Retval([out, retval] int* answer);
+			
+		// [in, out] params are passed into the callee and may be changed
+		// during the process of the method invocation.
+		[id(4)] HRESULT InAndOut([in, out] int* byRefParam);
+	};
+		
+	[object, uuid(5AC4FD17-C14E-44c1-B761-024D3E6E1A40)]
+	interface ITurboEngine : IEngine
+	{
+		HRESULT PowerBoost();		
+	};
+
+
+[
+	uuid(69D8B2E2-4CC1-4414-9757-49C53620FF0C),
+	version(1.0),
+	helpstring("ClassicATLCOMServer 1.0 Type Library")
+]
+library CLASSICATLCOMSERVERLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+	[
+		uuid(E88DA278-AD04-407F-9BBB-D8C00AFE7984),
+		helpstring("_ICarEvents Interface")
+	]
+	dispinterface _ICarEvents
+	{
+		properties:
+		methods:
+		[id(1), helpstring("method Exploded")] 
+		HRESULT Exploded([in] BSTR deadMsg );
+	};
+
+	[
+		uuid(8FB4E170-A7E0-4F46-8508-DFFD7DA1D669),
+		helpstring("CoCar Class")
+	]
+	coclass CoCar
+	{
+		[default] interface ICar;
+		interface IDriverInfo;
+		[default, source] dispinterface _ICarEvents;
+	};
+
+	[
+		uuid(32C07E17-F966-4EFD-B301-9729FE2D60B5),
+		helpstring("CoEngine Class"),
+		noncreatable
+	]
+	coclass CoEngine
+	{
+		[default] interface IEngine;	
+		
+		// uncomment to test...
+		// interface IParams;		
+		// interface ITurboEngine;
+	};
+};

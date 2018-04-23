@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToolBar", "SimpleToolBar.csproj", "{044CCFCE-8BD5-40A6-8E4E-D8E170BD4B7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{044CCFCE-8BD5-40A6-8E4E-D8E170BD4B7D}.Debug.ActiveCfg = Debug|.NET
+		{044CCFCE-8BD5-40A6-8E4E-D8E170BD4B7D}.Debug.Build.0 = Debug|.NET
+		{044CCFCE-8BD5-40A6-8E4E-D8E170BD4B7D}.Release.ActiveCfg = Release|.NET
+		{044CCFCE-8BD5-40A6-8E4E-D8E170BD4B7D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

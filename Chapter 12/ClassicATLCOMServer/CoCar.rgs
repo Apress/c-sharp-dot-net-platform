@@ -1,0 +1,26 @@
+HKCR
+{
+	ClassicATLCOMServer.CoCar.1 = s 'CoCar Class'
+	{
+		CLSID = s '{8FB4E170-A7E0-4F46-8508-DFFD7DA1D669}'
+	}
+	ClassicATLCOMServer.CoCar = s 'CoCar Class'
+	{
+		CLSID = s '{8FB4E170-A7E0-4F46-8508-DFFD7DA1D669}'
+		CurVer = s 'ClassicATLCOMServer.CoCar.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {8FB4E170-A7E0-4F46-8508-DFFD7DA1D669} = s 'CoCar Class'
+		{
+			ProgID = s 'ClassicATLCOMServer.CoCar.1'
+			VersionIndependentProgID = s 'ClassicATLCOMServer.CoCar'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{69D8B2E2-4CC1-4414-9757-49C53620FF0C}'
+		}
+	}
+}

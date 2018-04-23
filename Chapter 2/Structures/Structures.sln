@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structures", "Structures.csproj", "{3FF43F16-440D-4C49-A94F-4BE195C1999C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3FF43F16-440D-4C49-A94F-4BE195C1999C}.Debug.ActiveCfg = Debug|.NET
+		{3FF43F16-440D-4C49-A94F-4BE195C1999C}.Debug.Build.0 = Debug|.NET
+		{3FF43F16-440D-4C49-A94F-4BE195C1999C}.Release.ActiveCfg = Release|.NET
+		{3FF43F16-440D-4C49-A94F-4BE195C1999C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
